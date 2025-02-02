@@ -8,34 +8,10 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		// Switched from adapter-auto to adapter-cloudflare for Cloudflare Pages support
-		adapter: adapter({
-			// Optional configuration options for Cloudflare
-			routes: {
-				include: ['/*'],
-				exclude: ['/*.(js|ts|css|png|jpg|jpeg|gif|svg|ico|txt|html)']
-			},
-			platformProxy: {
-				configPath: 'wrangler.toml',
-				environment: undefined,
-				experimentalJsonConfig: false,
-				persist: false
-			}
-		}),
-		// Other kit options...
-		paths: {
-			base: ''
-		},
-		files: {
-			assets: 'static',
-			hooks: 'src/hooks',
-			routes: 'src/routes',
-			template: 'src/app.html'
-		},
-		// Enable or disable server-side rendering (SSR)
-		ssr: true,
-		// Enable or disable client-side hydration
-		hydrate: true
+		// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.
+		// If your environment is not supported, or you settled on a specific environment, switch out the adapter.
+		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
+		adapter: adapter()
 	}
 };
 
