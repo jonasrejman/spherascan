@@ -1,6 +1,12 @@
-<div class="flex items-center justify-center h-screen">
-	<div class="">
-		<p class="font-light text-7xl">EXAMPLES</p>
-		<p class="font-light text-1xl">3D Scans for your enjoyment.</p>
+<script>
+	import SceneOne from '../../../src/lib/scene/sceneOne.svelte';
+	import { Canvas } from '@threlte/core';
+</script>
+
+<section class="p-0">
+	<div class="canvas-wrapper ring h-[700px]">
+		<Canvas>
+			<SceneOne />
+		</Canvas>
 	</div>
-</div>
+</section>
