@@ -3,9 +3,9 @@
 	import * as THREE from 'three';
 	import { OrbitControls, Environment } from '@threlte/extras';
 	// models
-	import Hovercar from './../3Dmodel/free_merc_hovercar.svelte';
-	import Test from './../3Dmodel/test.svelte';
-	import Test3 from './../3Dmodel/test3.svelte';
+	import Hovercar from '../3Dmodels/hovercar.svelte';
+	import Test from '../3Dmodels/test.svelte';
+	import Test3 from '../3Dmodels/test3.svelte';
 </script>
 
 <T.PerspectiveCamera makeDefault position={[1, 1, 1]} fov={800} near={0.1} far={2000}>
