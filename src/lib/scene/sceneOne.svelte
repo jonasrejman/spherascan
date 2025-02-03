@@ -5,6 +5,7 @@
 	// models
 	import Hovercar from './../3Dmodel/free_merc_hovercar.svelte';
 	import Test from './../3Dmodel/test.svelte';
+	import Test3 from './../3Dmodel/test3.svelte';
 </script>
 
 <T.PerspectiveCamera makeDefault position={[1, 1, 1]} fov={800} near={0.1} far={2000}>
@@ -28,6 +29,9 @@
 </T.Group>
 <T.Group position={[0, 0.5, 0]} scale={1}>
 	<Test fallback={null} error={null} children={null} />
+</T.Group>
+<T.Group position={[0, 0.1, 0]} scale={1}>
+	<Test3 fallback={null} error={null} children={null} />
 </T.Group>
 
 <!-- Global Illumination maps -->
