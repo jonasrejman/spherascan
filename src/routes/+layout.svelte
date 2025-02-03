@@ -20,7 +20,7 @@
 			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
 			href="/"
 		>
-			<Icon src={EllipsisHorizontalCircle} theme="solid" size="24px" />
+			<Icon src={EllipsisHorizontalCircle} theme="outline" size="24px" />
 			<span
 				class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
 				>spherascan</span
@@ -32,7 +32,7 @@
 			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
 			href="/examples"
 		>
-			<Icon src={HandRaised} theme="solid" size="24px" />
+			<Icon src={HandRaised} theme="outline" size="24px" />
 			<span
 				class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
 				>examples</span
@@ -43,7 +43,7 @@
 			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
 			href="/team"
 		>
-			<Icon src={UserGroup} theme="solid" size="24px" />
+			<Icon src={UserGroup} theme="outline" size="24px" />
 			<span
 				class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
 				>team</span
@@ -54,7 +54,7 @@
 			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
 			href="/specs"
 		>
-			<Icon src={ServerStack} theme="solid" size="24px" />
+			<Icon src={ServerStack} theme="outline" size="24px" />
 			<span
 				class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
 				>specs</span
@@ -65,7 +65,7 @@
 			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
 			href="/partnership"
 		>
-			<Icon src={GlobeAsiaAustralia} theme="solid" size="24px" />
+			<Icon src={GlobeAsiaAustralia} theme="outline" size="24px" />
 			<span
 				class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
 				>partners</span
