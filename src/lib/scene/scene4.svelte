@@ -4,7 +4,7 @@
 	import { OrbitControls, Environment } from '@threlte/extras';
 	// models
 
-	import Scene2 from '../3Dmodels/scan3.svelte';
+	import Scene2 from '../3Dmodels/scan4.svelte';
 </script>
 
 <T.PerspectiveCamera makeDefault position={[1, 1, 1]} fov={50} near={0.1} far={2000}>
