@@ -4,7 +4,7 @@
 	import { OrbitControls, Environment } from '@threlte/extras';
 	// models
 
-	import Scene2 from '../3Dmodels/scan5.svelte';
+	import Scene5 from '../3Dmodels/scan5.svelte';
 </script>
 
 <T.PerspectiveCamera makeDefault position={[1, 1, 1]} fov={50} near={0.1} far={2000}>
@@ -24,7 +24,7 @@
 
 <!-- Models -->
 <T.Group position={[0, 0, 0]} scale={1}>
-	<Scene2 fallback={null} error={null} children={null} />
+	<Scene5 fallback={null} error={null} children={null} />
 </T.Group>
 
 <!-- Global Illumination maps -->
