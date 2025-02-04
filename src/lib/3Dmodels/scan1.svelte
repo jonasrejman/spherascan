@@ -9,7 +9,7 @@ Command: npx @threlte/gltf@3.0.0-next.11 ./test.glb
 
 	let { fallback, error, children, ref = $bindable(), ...props } = $props();
 
-	const gltf = useGltf('3Dmodels/test.glb');
+	const gltf = useGltf('3Dmodels/scan1.glb');
 </script>
 
 <T.Group bind:ref dispose={false} {...props}>
