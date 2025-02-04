@@ -20,7 +20,7 @@
 	}
 </script>
 
-<div class="grid grid-cols-5 gap-3 p-10" style="position: relative; top: 40px;">
+<div class="grid grid-cols-5 gap-2 p-10" style="position: relative; top: 40px;">
 	{#each scenes as scene, index}
 		<div class="bg-gray-200 rounded-md hover:bg-gray-300" on:click={() => selectScene(index)}>
 			<div class="w-full h-full aspect-square">
