@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { Canvas } from '@threlte/core';
 
 	// Models
@@ -8,21 +8,24 @@
 	import Scene4 from '../../../src/lib/scene/scene4.svelte';
 	import Scene5 from '../../../src/lib/scene/scene5.svelte';
 
-	// Array of scenes
-	let scenes = [Scene1, Scene2, Scene3, Scene4, Scene5];
-
-	// State to track the selected scene index
 	let selectedSceneIndex = 0;
+	const scenes = [Scene1, Scene2, Scene3, Scene4, Scene5];
 
 	// Function to handle scene selection
-	function selectScene(index) {
+	function selectScene(index: number) {
 		selectedSceneIndex = index;
 	}
 </script>
 
 <div class="grid grid-cols-5 gap-2 p-10" style="position: relative; top: 40px;">
 	{#each scenes as scene, index}
-		<div class="bg-gray-200 rounded-md hover:bg-gray-300" on:click={() => selectScene(index)}>
+		<button
+			type="button"
+			class="bg-gray-200 rounded-md hover:bg-gray-300"
+			on:click={() => selectScene(index)}
+			on:keydown={(event) => event.key === 'Enter' && selectScene(index)}
+			aria-label={`Select scene ${index + 1}`}
+		>
 			<div class="w-full h-full aspect-square">
 				<Canvas>
 					{#if scene === Scene1}
@@ -38,7 +41,7 @@
 					{/if}
 				</Canvas>
 			</div>
-		</div>
+		</button>
 	{/each}
 	<div class="bg-gray-400 rounded-md sm:col-span-5">
 		<div class="w-full h-full aspect-2/1">
