@@ -7,14 +7,14 @@
 	import Scene1 from '../3Dmodels/scan1.svelte';
 </script>
 
-<T.PerspectiveCamera makeDefault position={[1, 1, 1]} fov={800} near={0.1} far={2000}>
+<T.PerspectiveCamera makeDefault position={[1, 1, 1]} fov={50} near={0.1} far={2000}>
 	<OrbitControls
 		autoRotate
 		autoRotateSpeed={0.5}
 		allowPan={false}
 		enableDamping
 		maxDistance={500}
-		minDistance={1}
+		minDistance={0.5}
 	/>
 </T.PerspectiveCamera>
 

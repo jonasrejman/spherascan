@@ -41,23 +41,23 @@
 		<a
 			type="button"
 			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
-			href="/team"
-		>
-			<Icon src={UserGroup} theme="outline" size="24px" />
-			<span
-				class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
-				>team</span
-			>
-		</a>
-		<a
-			type="button"
-			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
 			href="/specs"
 		>
 			<Icon src={ServerStack} theme="outline" size="24px" />
 			<span
 				class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
 				>specs</span
+			>
+		</a>
+		<a
+			type="button"
+			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
+			href="/team"
+		>
+			<Icon src={UserGroup} theme="outline" size="24px" />
+			<span
+				class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
+				>team</span
 			>
 		</a>
 		<a
