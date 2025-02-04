@@ -5,6 +5,8 @@
 	// models
 
 	import Scene1 from '../3Dmodels/scan1.svelte';
+
+	let scene;
 </script>
 
 <T.PerspectiveCamera makeDefault position={[1, 1, 1]} fov={50} near={0.1} far={2000}>
@@ -18,8 +20,7 @@
 	/>
 </T.PerspectiveCamera>
 
-<!-- <Sky /> -->
-
+<!-- Grid-->
 <T.GridHelper args={[10, 10]} />
 
 <!-- Models -->
