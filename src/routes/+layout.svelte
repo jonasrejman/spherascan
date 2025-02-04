@@ -27,7 +27,17 @@
 				>spherascan</span
 			>
 		</a>
-
+		<a
+			type="button"
+			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
+			href="/application"
+		>
+			<Icon src={LightBulb} theme="outline" size="24px" />
+			<span
+				class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
+				>application</span
+			>
+		</a>
 		<a
 			type="button"
 			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
@@ -38,17 +48,8 @@
 				class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
 				>examples</span
 			>
-		</a><a
-			type="button"
-			class="inline-flex flex-col items-center justify-center px-3 hover:bg-gray-50 dark:hover:bg-gray-800 group"
-			href="/application"
-		>
-			<Icon src={LightBulb} theme="outline" size="24px" />
-			<span
-				class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
-				>application</span
-			>
 		</a>
+
 		<a
 			type="button"
 			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
