@@ -22,7 +22,7 @@
 
 <div class="grid grid-cols-5 gap-3 p-10" style="position: relative; top: 40px;">
 	{#each scenes as scene, index}
-		<div class="bg-gray-200 rounded-md cursor-pointer" on:click={() => selectScene(index)}>
+		<div class="bg-gray-200 rounded-md hover:bg-gray-300" on:click={() => selectScene(index)}>
 			<div class="w-full h-full aspect-square">
 				<Canvas>
 					{#if scene === Scene1}
@@ -40,7 +40,7 @@
 			</div>
 		</div>
 	{/each}
-	<div class="bg-gray-300 rounded-md sm:col-span-5">
+	<div class="bg-gray-400 rounded-md sm:col-span-5">
 		<div class="w-full h-full aspect-2/1">
 			<Canvas>
 				{#if scenes[selectedSceneIndex] === Scene1}
