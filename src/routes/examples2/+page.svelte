@@ -20,7 +20,14 @@
 </script>
 
 <!-- Use the model viewer component only when the script is loaded -->
-
+<model-viewer
+	src={modelUrl}
+	alt="A 3D model"
+	ar
+	ar-modes="webxr scene-viewer quick-look"
+	camera-controls
+	auto-rotate
+></model-viewer>
 <div class="flex items-center justify-center h-screen">
 	<div class="">
 		{#if modelViewerLoaded}
