@@ -16,60 +16,52 @@
 	<div class="grid h-full max-w-lg grid-cols-6 mx-auto font-medium mt-2">
 		<a
 			type="button"
-			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100"
+			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100 rounded-lg"
 			href="/"
 		>
 			<Icon src={EllipsisHorizontalCircle} theme="outline" size="24px" />
-			<span class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600"
-				>spherascan</span
-			>
+			<span class="text-sm text-gray-500 dark:text-gray-400">spherascan</span>
 		</a>
 		<a
 			type="button"
-			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100"
+			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100 rounded-lg"
 			href="/application"
 		>
 			<Icon src={LightBulb} theme="outline" size="24px" />
-			<span class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600"
-				>application</span
-			>
+			<span class="text-sm text-gray-500 dark:text-gray-400">application</span>
 		</a>
 		<a
 			type="button"
-			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100"
+			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100 rounded-lg"
 			href="/examples"
 		>
 			<Icon src={HandRaised} theme="outline" size="24px" />
-			<span class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600"
-				>examples</span
-			>
+			<span class="text-sm text-gray-500 dark:text-gray-400">examples</span>
 		</a>
 
 		<a
 			type="button"
-			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100"
+			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100 rounded-lg"
 			href="/specs"
 		>
 			<Icon src={ServerStack} theme="outline" size="24px" />
-			<span class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600">specs</span>
+			<span class="text-sm text-gray-500 dark:text-gray-400">specs</span>
 		</a>
 		<a
 			type="button"
-			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100"
+			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100 rounded-lg"
 			href="/team"
 		>
 			<Icon src={UserGroup} theme="outline" size="24px" />
-			<span class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600">team</span>
+			<span class="text-sm text-gray-500 dark:text-gray-400">team</span>
 		</a>
 		<a
 			type="button"
-			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100"
+			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100 rounded-lg"
 			href="/partnership"
 		>
 			<Icon src={GlobeAsiaAustralia} theme="outline" size="24px" />
-			<span class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600"
-				>partners</span
-			>
+			<span class="text-sm text-gray-500 dark:text-gray-400">partners</span>
 		</a>
 	</div>
 </div>
