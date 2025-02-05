@@ -96,8 +96,8 @@
 			<div>
 				<h3 class="font-semibold text-xl">Investors</h3>
 				<p class="mt-1">
-					We are currently seeking collaborations with clinics, institutions, and investors to bring
-					the scanner to market.
+					We are seeking strategic collaborations with clinics, institutions, and investors to
+					launch our scanner.
 				</p>
 			</div>
 		</div>
