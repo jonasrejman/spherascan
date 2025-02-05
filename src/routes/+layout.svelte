@@ -50,18 +50,18 @@
 		<a
 			type="button"
 			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100 rounded-lg"
-			href="/team"
-		>
-			<Icon src={UserGroup} theme="outline" size="24px" />
-			<span class="text-sm text-gray-500 dark:text-gray-400">team</span>
-		</a>
-		<a
-			type="button"
-			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100 rounded-lg"
 			href="/partnership"
 		>
 			<Icon src={GlobeAsiaAustralia} theme="outline" size="24px" />
 			<span class="text-sm text-gray-500 dark:text-gray-400">partners</span>
+		</a>
+		<a
+			type="button"
+			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100 rounded-lg"
+			href="/team"
+		>
+			<Icon src={UserGroup} theme="outline" size="24px" />
+			<span class="text-sm text-gray-500 dark:text-gray-400">team</span>
 		</a>
 	</div>
 </div>
