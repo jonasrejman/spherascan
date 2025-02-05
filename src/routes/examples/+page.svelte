@@ -64,7 +64,7 @@
 				class="absolute bottom-1 p-1 bg-gray-400 bg-opacity-50 rounded-md text-center text-sm"
 				style="left: 50%; transform: translateX(-50%); width: 390px;"
 			>
-				<span>prototype 1 half-side scans with known artefacts</span>
+				<span>first prototype 180° partial scans with known artefacts</span>
 			</div>
 		</div>
 	</div>
