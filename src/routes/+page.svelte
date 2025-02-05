@@ -1,12 +1,6 @@
 <script>
 	import { Icon } from '@steeze-ui/svelte-icon';
 	import {
-		ServerStack,
-		UserGroup,
-		HandRaised,
-		GlobeAsiaAustralia,
-		EllipsisHorizontalCircle,
-		LightBulb,
 		Beaker,
 		RocketLaunch,
 		BuildingOffice2,
@@ -14,7 +8,6 @@
 		CodeBracket,
 		CubeTransparent
 	} from '@steeze-ui/heroicons';
-	import { CubeTexturePass } from 'three/examples/jsm/Addons.js';
 </script>
 
 <div class="max-w-4xl mx-auto px-5 mt-40">

@@ -50,7 +50,7 @@
 		<a
 			type="button"
 			class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100 rounded-lg"
-			href="/partnership"
+			href="/partners"
 		>
 			<Icon src={GlobeAsiaAustralia} theme="outline" size="24px" />
 			<span class="text-sm text-gray-500 dark:text-gray-400">partners</span>
