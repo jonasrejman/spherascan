@@ -7,7 +7,7 @@
 	import Scene3 from '../3Dmodels/scan3.svelte';
 </script>
 
-<T.PerspectiveCamera makeDefault position={[1, 1, 1]} fov={50} near={0.1} far={2000}>
+<T.PerspectiveCamera makeDefault position={[1, 1, 1]} fov={30} near={0.1} far={2000}>
 	<OrbitControls
 		autoRotate
 		autoRotateSpeed={0.5}

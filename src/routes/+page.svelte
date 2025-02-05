@@ -57,8 +57,8 @@
 			<div>
 				<h3 class="font-semibold text-xl">Software Applications</h3>
 				<p class="mt-1">
-					The scanner offers a growing variety of applications, including healing progress
-					documentation, finger angle measurement, and volumetric analysis
+					A growing variety of applications includes healing progress documentation, finger angle
+					measurement, and volumetric analysis.
 				</p>
 			</div>
 		</div>
