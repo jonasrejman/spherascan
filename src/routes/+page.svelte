@@ -31,8 +31,8 @@
 			<div>
 				<h3 class="font-semibold text-xl">Diagnostic</h3>
 				<p class="mt-1">
-					Conveniently accessible 3D hand models provide enhanced decision-making support in
-					surgery, dermatology, rehabilitation, and orthopedics.
+					Accessible 3D hand models provide enhanced decision-making support in surgery,
+					dermatology, rehabilitation, and orthopedics.
 				</p>
 			</div>
 		</div>
