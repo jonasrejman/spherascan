@@ -45,8 +45,8 @@
 			</div>
 		</button>
 	{/each}
-	<div class="bg-gray-400 rounded-md sm:col-span-5 relative flex flex-col">
-		<div class="flex-grow relative aspect-[2/1] position-relative">
+	<div class="bg-gray-400 rounded-md sm:col-span-5 relative flex flex-col relative aspect-[2/1]">
+		<div class="canvas-wrapper flex-grow">
 			<Canvas>
 				{#if scenes[selectedSceneIndex] === Scene1}
 					<Scene1 />
@@ -60,11 +60,12 @@
 					<Scene5 />
 				{/if}
 			</Canvas>
-		</div>
-		<div
-			class="absolute bottom-1 left-1/2 -translate-x-1/2 p-1 bg-gray-400 bg-opacity-50 rounded-md text-center text-sm w-fit"
-		>
-			<span>prototype 1 renderings with known artefacts</span>
+			<div
+				class="absolute bottom-1 p-1 bg-gray-400 bg-opacity-50 rounded-md text-center text-sm"
+				style="left: 50%; transform: translateX(-50%); width: 320px;"
+			>
+				<span>prototype 1 renderings with known artefacts</span>
+			</div>
 		</div>
 	</div>
 </div>
