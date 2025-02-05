@@ -46,7 +46,7 @@
 		</button>
 	{/each}
 	<div class="bg-gray-400 rounded-md sm:col-span-5 relative flex flex-col">
-		<div class="flex-grow relative">
+		<div class="flex-grow relative aspect-[2/1]">
 			<Canvas>
 				{#if scenes[selectedSceneIndex] === Scene1}
 					<Scene1 />
