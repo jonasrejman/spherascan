@@ -25,7 +25,7 @@
 
 	<div class="grid md:grid-cols-2 gap-10 mt-30">
 		<div class="flex gap-4 items-start">
-			<div class="text-violet-600 bg-violet-500/10 p-2 rounded-full w-10 h-10">
+			<div class="text-sky-600 bg-sky-500/10 p-2 rounded-full w-10 h-10">
 				<Icon src={Bolt} theme="outline" size="24px" class="m-auto" />
 			</div>
 			<div>
@@ -38,7 +38,7 @@
 		</div>
 
 		<div class="flex gap-4 items-start">
-			<div class="text-violet-600 bg-violet-500/10 p-2 rounded-full w-10 h-10">
+			<div class="text-sky-600 bg-sky-500/10 p-2 rounded-full w-10 h-10">
 				<Icon src={BuildingOffice2} theme="outline" size="24px" class="m-auto" />
 			</div>
 			<div>
@@ -51,7 +51,7 @@
 		</div>
 
 		<div class="flex gap-4 items-start">
-			<div class="text-violet-600 bg-violet-500/10 p-2 rounded-full w-10 h-10">
+			<div class="text-sky-600 bg-sky-500/10 p-2 rounded-full w-10 h-10">
 				<Icon src={CodeBracket} theme="outline" size="24px" class="m-auto" />
 			</div>
 			<div>
@@ -64,7 +64,7 @@
 		</div>
 
 		<div class="flex gap-4 items-start">
-			<div class="text-violet-600 bg-violet-500/10 p-2 rounded-full w-10 h-10">
+			<div class="text-sky-600 bg-sky-500/10 p-2 rounded-full w-10 h-10">
 				<Icon src={CubeTransparent} theme="outline" size="24px" class="m-auto" />
 			</div>
 			<div>
@@ -77,7 +77,7 @@
 		</div>
 
 		<div class="flex gap-4 items-start">
-			<div class="text-violet-600 bg-violet-500/10 p-2 rounded-full w-10 h-10">
+			<div class="text-sky-600 bg-sky-500/10 p-2 rounded-full w-10 h-10">
 				<Icon src={Beaker} theme="outline" size="24px" class="m-auto" />
 			</div>
 			<div>
@@ -90,7 +90,7 @@
 		</div>
 
 		<div class="flex gap-4 items-start">
-			<div class="text-violet-600 bg-violet-500/10 p-2 rounded-full w-10 h-10">
+			<div class="text-sky-600 bg-sky-500/10 p-2 rounded-full w-10 h-10">
 				<Icon src={RocketLaunch} theme="outline" size="24px" class="m-auto" />
 			</div>
 			<div>
