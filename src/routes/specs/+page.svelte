@@ -5,6 +5,6 @@
 		<p class="font-light text-1xl">32x64MP image resolution</p>
 		<p class="font-light text-1xl">1 second per scan</p>
 		<p class="font-light text-1xl">90 seconds from scan to 3D object</p>
-		<p class="font-light text-1xl">open image pipeline integration</p>
+		<p class="font-light text-1xl">open integration</p>
 	</div>
 </div>
