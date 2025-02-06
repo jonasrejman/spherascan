@@ -19,7 +19,7 @@
 	//
 </script>
 
-<div class="grid grid-cols-5 gap-2 p-10" style="position: relative; top: 40px;">
+<div class="grid grid-cols-5 gap-2 p-10 mt-8 mx-10" style="position: relative; top: 40px;">
 	{#each scenes as scene, index}
 		<button
 			type="button"
