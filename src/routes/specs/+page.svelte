@@ -12,10 +12,12 @@
 	<div class="flex items-center justify-center">
 		<div class="">
 			<p class="font-light text-1xl">clinic-optimised user experience</p>
-			<p class="font-light text-1xl">32x64MP image resolution</p>
 			<p class="font-light text-1xl">1 second per scan</p>
 			<p class="font-light text-1xl">90 seconds from scan to 3D object</p>
 			<p class="font-light text-1xl">open integration</p>
+			<p class="font-light text-1xl">64K vertexes</p>
+			<p class="font-light text-1xl">120K faces</p>
+			<p class="font-light text-1xl">16MB texture</p>
 		</div>
 	</div>
 </div>

@@ -6,7 +6,7 @@
 <div class="max-w-4xl mx-auto px-5 mt-40">
 	<div class="text-center">
 		<h2 class="font-light text-7xl">TEAM</h2>
-		<p class="max-w-md mx-auto mt-2">people building spherascan</p>
+		<p class="max-w-md mx-auto mt-2">people engineering spherascan</p>
 	</div>
 
 	<div class="grid md:grid-cols-2 gap-10 mt-30">

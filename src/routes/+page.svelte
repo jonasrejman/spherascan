@@ -13,7 +13,7 @@
 <div class="max-w-4xl mx-auto px-5 mt-40">
 	<div class="text-center">
 		<h2 class="font-light text-7xl">SPHERASCAN</h2>
-		<p class="max-w-md mx-auto mt-2">photogrammetric 3D hand scanner for medical professionals</p>
+		<p class="max-w-md mx-auto mt-2">3D hand scanner for medical professionals</p>
 	</div>
 
 	<div class="grid md:grid-cols-2 gap-10 mt-30">
