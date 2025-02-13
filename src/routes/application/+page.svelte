@@ -1,16 +1,8 @@
 <script>
 	import { Icon } from '@steeze-ui/svelte-icon';
-	import {
-		Beaker,
-		RocketLaunch,
-		BuildingOffice2,
-		Bolt,
-		CodeBracket,
-		CubeTransparent,
-		VideoCamera,
-		Cube,
-		HandThumbUp
-	} from '@steeze-ui/heroicons';
+	import { CubeTransparent, VideoCamera, Cube, HandThumbUp } from '@steeze-ui/heroicons';
+
+	import { HandTwoFingers } from '@steeze-ui/tabler-icons';
 </script>
 
 <div class="max-w-4xl mx-auto px-5 mt-40">
@@ -35,7 +27,7 @@
 
 		<div class="flex gap-4 items-start">
 			<div class="text-yellow-600 bg-yellow-500/10 p-2 rounded-full w-10 h-10">
-				<Icon src={HandThumbUp} theme="outline" size="24px" class="m-auto" />
+				<Icon src={HandTwoFingers} theme="outline" size="24px" class="m-auto" />
 			</div>
 			<div>
 				<h3 class="font-semibold text-xl">Finger Angle Measurement</h3>
