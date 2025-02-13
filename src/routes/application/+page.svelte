@@ -6,7 +6,10 @@
 		BuildingOffice2,
 		Bolt,
 		CodeBracket,
-		CubeTransparent
+		CubeTransparent,
+		VideoCamera,
+		Cube,
+		HandThumbUp
 	} from '@steeze-ui/heroicons';
 </script>
 
@@ -32,7 +35,7 @@
 
 		<div class="flex gap-4 items-start">
 			<div class="text-yellow-600 bg-yellow-500/10 p-2 rounded-full w-10 h-10">
-				<Icon src={BuildingOffice2} theme="outline" size="24px" class="m-auto" />
+				<Icon src={HandThumbUp} theme="outline" size="24px" class="m-auto" />
 			</div>
 			<div>
 				<h3 class="font-semibold text-xl">Finger Angle Measurement</h3>
@@ -43,8 +46,8 @@
 		</div>
 
 		<div class="flex gap-4 items-start">
-			<div class="text-sky-600 bg-sky-500/10 p-2 rounded-full w-10 h-10">
-				<Icon src={CodeBracket} theme="outline" size="24px" class="m-auto" />
+			<div class="text-green-600 bg-green-500/10 p-2 rounded-full w-10 h-10">
+				<Icon src={VideoCamera} theme="outline" size="24px" class="m-auto" />
 			</div>
 			<div>
 				<h3 class="font-semibold text-xl">64x Multi-Angle Video Capture</h3>
@@ -56,7 +59,7 @@
 
 		<div class="flex gap-4 items-start">
 			<div class="text-sky-600 bg-sky-500/10 p-2 rounded-full w-10 h-10">
-				<Icon src={CodeBracket} theme="outline" size="24px" class="m-auto" />
+				<Icon src={Cube} theme="outline" size="24px" class="m-auto" />
 			</div>
 			<div>
 				<h3 class="font-semibold text-xl">Volumetric Measurement</h3>
