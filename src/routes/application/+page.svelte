@@ -40,7 +40,7 @@
 			<div>
 				<h3 class="font-semibold text-xl">Finger Angle Measurement</h3>
 				<p class="mt-1">
-					Full automatic measurement of angles between all fingersegments in seconds.
+					Full automatic measurement of angles between all finger segments in seconds.
 				</p>
 			</div>
 		</div>
@@ -52,7 +52,7 @@
 			<div>
 				<h3 class="font-semibold text-xl">64x Multi-Angle Video Capture</h3>
 				<p class="mt-1">
-					Multi-angle motion capture for analysis and prediction of neurological defects.
+					Multi-angle motion capture for the analysis and prediction of neurological defects.
 				</p>
 			</div>
 		</div>
